@@ -9,6 +9,7 @@ import Home from './components/home/Home';
 import About from './components/about/About';
 import Extention from './components/extention/Extention';
 import Subscribe from './components/subscribe/Subscribe';
+import Users from './components/users/Users';
 
 
 
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path:"/subscribe",
         element:<Subscribe></Subscribe>
+      },
+      {
+        path:"/users",
+        element:<Users></Users>
       }
    
     ]

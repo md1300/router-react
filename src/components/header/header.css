@@ -1,5 +1,11 @@
 .navbar{
-    display: flex;
+    display:flex;
     justify-content: center;
+    text-decoration: aqua;
     gap: 20px;
+}
+
+.navbar a.active{
+    color: aqua;
+    background-color: azure;
 }

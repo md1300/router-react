@@ -1,11 +1,14 @@
-import { useLoaderData, useNavigate } from "react-router-dom";
+import { useLoaderData, useNavigate, useParams } from "react-router-dom";
 import './postDetails.css'
 
 const PostDetails = () => {
    const post =useLoaderData();
    const {title,body}= post;
-   const navigate=useNavigate()
-//   console.log(post)
+   const navigate=useNavigate();
+   const {postId}=useParams();
+
+
+   
 
 
 

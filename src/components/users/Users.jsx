@@ -8,7 +8,7 @@ const Users = () => {
     console.log(users)
     return (
         <div>
-            <h1>Total users :{users.length}</h1>
+            <h1 className="title">Total users :{users.length}</h1>
              <div className="card-container">
                 {
                    users.map(user=><User key={user.id} user={user}></User>)
